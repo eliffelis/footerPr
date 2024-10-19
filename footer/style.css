@@ -1,0 +1,57 @@
+* { 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    footer {
+      background-color: #003366; 
+      color: white;
+      padding: 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    
+    h3 {
+      font-size:25px;
+    }
+    .instaPng {
+      margin-left: 20px;
+      width:30px;
+    }
+    .facePng {
+      width:20px;
+    }
+    
+    .three {
+      color:white;
+    }
+    
+    
+    .contact , h3 , p , p , p, social-media{
+     margin-bottom:20px; 
+    }
+    
+    .contact , .social-media {
+      text-align:center;
+    }
+    
+    .two::before{
+      content:"🕾";
+      
+    }
+    .one::before{
+      content:"📍";
+    }
+    .three::before{
+      content:"💌";
+    
+    }
+    .three , .one , .two {
+    font-weight:bold;
+    }
